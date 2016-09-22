@@ -15,6 +15,7 @@
     </sprites>
     <sprites name="Effects">
       <sprite>sprites\spr_fadefromblack</sprite>
+      <sprite>sprites\spr_fadetoblack</sprite>
       <sprite>sprites\spr_grey</sprite>
       <sprite>sprites\spr_whiteflash</sprite>
       <sprite>sprites\spr_diaboxfade</sprite>
@@ -26,6 +27,9 @@
     <sprite>sprites\spr_dragdroptorso</sprite>
     <sprite>sprites\spr_dragdroplegarm</sprite>
     <sprite>sprites\spr_bodyshelf</sprite>
+    <sprite>sprites\spr_gravetorso</sprite>
+    <sprite>sprites\spr_gravelimb</sprite>
+    <sprite>sprites\spr_dirtpile</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -49,6 +53,7 @@
       <object>objects\obj_whiteflash</object>
       <object>objects\obj_fadefromblack</object>
       <object>objects\obj_grey</object>
+      <object>objects\obj_fadetoblack</object>
       <object>objects\ob_diaboxfade</object>
     </objects>
     <objects name="Buttons">
@@ -64,6 +69,11 @@
     <object>objects\obj_dragdroptorso</object>
     <object>objects\obj_dragdroplegarm</object>
     <object>objects\obj_BodyShelf</object>
+    <object>objects\obj_grave</object>
+    <object>objects\obj_gravetorso</object>
+    <object>objects\obj_gravelimb</object>
+    <object>objects\obj_dirtpile</object>
+    <object>objects\obj_statuscheckmaster</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Starting">
