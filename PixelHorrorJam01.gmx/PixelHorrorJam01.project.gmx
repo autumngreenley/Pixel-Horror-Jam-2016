@@ -30,6 +30,7 @@
     <sprite>sprites\spr_gravetorso</sprite>
     <sprite>sprites\spr_gravelimb</sprite>
     <sprite>sprites\spr_dirtpile</sprite>
+    <sprite>sprites\spr_brick</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -66,6 +67,7 @@
     <object>objects\obj_title</object>
     <object>objects\obj_portraittest</object>
     <object>objects\obj_dragdroptest</object>
+    <object>objects\obj_brick</object>
     <object>objects\obj_dragdroptorso</object>
     <object>objects\obj_dragdroplegarm</object>
     <object>objects\obj_BodyShelf</object>
@@ -73,9 +75,10 @@
     <object>objects\obj_gravetorso</object>
     <object>objects\obj_gravelimb</object>
     <object>objects\obj_dirtpile</object>
-    <object>objects\obj_statuscheckmaster</object>
+    <object>objects\obj_statuscheckbury</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_whereisthebody_dispose</room>
     <rooms name="Starting">
       <room>rooms\rm_title</room>
       <room>rooms\rm_start</room>
@@ -88,7 +91,7 @@
     </rooms>
     <room>rooms\rm_howdidhedie</room>
     <room>rooms\rm_whathappenednext</room>
-    <room>rooms\rm_whereisthebody</room>
+    <room>rooms\rm_whereisthebody_bury</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
